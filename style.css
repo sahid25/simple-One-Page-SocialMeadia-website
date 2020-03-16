@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap');
+
+/* Including Google Font */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-size: 14px;
+  color: #777777;
+  font-family: 'Roboto', lato;
+  height: 100px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* 
+.col-md-3,
+.col-md-6 {
+  padding-left: 0;
+  padding-right: 0;
+} */
+
+button {
+  border: none;
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+/*  */
+header {
+  background-color: tomato;
+}
+
+header li {
+  display: inline-flex;
+}
+
+header li a {
+  font-size: 2rem;
+  padding: 1rem;
+  margin-right: 5rem;
+  color: #ffffff;
+  transition: all 0.3s;
+}
+
+
+header a:hover {
+  color: #ffffff;
+}
+
+/* Main */
+
+main .left-content .active-title {
+  /* color: #777777; */
+  font-weight: 600;
+  padding-top: 20px;
+  /* color: #4cd137; */
+  cursor: pointer;
+}
+
+
+main .left-content {
+  border-right: 1px solid rgba(250, 128, 114, 0.199);
+}
+
+.left-content .active-user {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.767);
+}
+
+.active-user .user-img {
+  width: 60px;
+
+}
+
+.active-user-details {
+  padding: 10px;
+}
+
+.active-user-details p {
+  font-size: 18px;
+  font-family: 'lato';
+  line-height: 20px;
+  color: tomato;
+  transition: all 0.3s;
+  font-weight: 600;
+
+}
+
+.active-user-details .active-user-name a {
+  color: tomato;
+}
+
+.active-user-details .active-status {
+  color: #4cd137;
+  cursor: pointer;
+}
+
+/* Right Content  */
+main .right-content {
+  border-left: 1px solid rgba(250, 128, 114, 0.199);
+}
+
+main .right-content .friendRequest-title {
+  /* color: blue; */
+  font-weight: 600;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+.right-content {
+  /* background-color: royalblue; */
+  /* color: white; */
+}
+
+.friendRequest {
+  padding: 10px;
+}
+
+.friendRequest-img {
+  width: 50px;
+}
+
+.friendRequest-userDetails {
+  padding: 10px;
+}
+
+.friendRequest-userDetails .user-name,
+p {
+  font-size: 14px;
+  font-family: 'lato';
+  line-height: 20px;
+  color: tomato;
+  transition: all 0.3s;
+  font-weight: 600;
+}
+
+.friendRequest-userDetails .user-name {
+  font-weight: 600;
+}
+
+.right-content .friendRequest-Btn {
+  padding: 5px;
+}
+
+.right-content .friendRequest-Btn a {
+  /* color: #ffffff; */
+  font-size: 18px;
+  /* padding-right: 5px; */
+}
+
+.right-content #acceptBtn {
+  color: #4cd137;
+}
+
+.right-content #cancelBtn {
+  color: red;
+}
+
+/* createPost */
+.middle-content {
+  border-left: 1px solid rgba(250, 128, 114, 0.199);
+  border-right: 1px solid rgba(250, 128, 114, 0.199);
+}
+
+.createPost {
+  margin-top: 10px;
+  padding: 10px;
+  /* box-shadow: 1px 2px 2px 3px gray; */
+  /* height: 100px; */
+  border-bottom: 1px solid rgba(211, 211, 211, 0.767);
+}
+
+.createPost .status-textarea {
+  padding-left: 10px;
+}
+
+.status-textarea textarea {
+  border: 1px solid lightgray;
+  border: none;
+  outline: none !important;
+  outline-color: none !important;
+}
+
+textarea:focus {
+  outline: none !important;
+  outline-color: none !important;
+}
+
+.createPost .postBtn {
+  color: tomato;
+  border: 1px solid tomato;
+  background: none !important;
+  padding: 5px 5px;
+  margin-left: auto;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.postBtn:hover {
+  background: tomato !important;
+  color: #ffffff;
+}
+
+.postArea {
+  border-bottom: 1px solid rgba(211, 211, 211, 0.767);
+}
+
+.postArea-head {
+  padding: 10px;
+}
+
+.postArea-head .profile-picture {
+  /* padding: 10px; */
+}
+
+.postArea-head .postUserName {
+  padding: 10px;
+}
+
+.postArea-head .post-save {
+  margin-left: auto;
+  /* position: relative; */
+}
+
+.postArea-head .post-save a {
+  color: tomato;
+  font-size: 18px;
+  /* position: absolute; */
+}
+
+.postArea-content {
+  padding: 5px 10px;
+}
+
+.post-content p {
+  font-size: 14px;
+  font-family: 'roboto';
+  font-weight: 400;
+  color: #777777;
+}
+
+.post-reaction {
+  /* padding: 5px; */
+  /* background: tomato; */
+  /* border-bottom: 1px solid rgba(250, 128, 114, 0.199); */
+  /* border-radius: 5px; */
+}
+
+.post-reaction div a {
+  font-size: 20px;
+  padding: 5rem;
+  color: tomato;
+}
+
+
+/* Footer */
+footer {
+  padding: 5rem;
+}
